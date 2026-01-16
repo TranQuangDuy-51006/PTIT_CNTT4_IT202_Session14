@@ -18,7 +18,7 @@ create table posts (
         foreign key (user_id) references users(user_id)
 );
 
-insert into users (username) values ('kimle');
+insert into users (username) values ('jiren');
 
 start transaction;
 insert into posts (user_id, content) values (1, 'Bài viết đầu tiên');
